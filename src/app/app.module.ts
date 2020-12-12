@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AngularMaterialModule } from "./angular-material.module";
+import { AngularMaterialModule } from './angular-material.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -13,9 +13,9 @@ import { SharedModule } from './shared/shared.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
+		BrowserModule,
+		AppRoutingModule,
+		BrowserAnimationsModule,
 		AngularMaterialModule,
 		SharedModule,
   ],
